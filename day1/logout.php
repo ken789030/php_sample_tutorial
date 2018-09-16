@@ -1,8 +1,5 @@
 <?php
-
-if (!isset($_SESSION)) {
-	session_start();
-}
+include 'checkLogin.php';
 
 if (isset($_SESSION['account']) && $_SESSION['account'] != '') {
 	session_destroy();
