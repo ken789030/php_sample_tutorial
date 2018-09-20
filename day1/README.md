@@ -8,9 +8,12 @@ tags: php,rookie teach
     * SESSION
     * header
     * isset
+    * json_encode
 * html 
     * from
     * input
+    * jquery的ajax
+    
 ## 你會學到什麼
 > 關於登入登出的基本流程
 > 將共同程式，可將獨立出來同一檔案 
