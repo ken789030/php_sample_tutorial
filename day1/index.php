@@ -26,7 +26,7 @@ include 'checkLogin.php';
 					{
 						console.log(msg);
 						if (msg.result == true) {
-							location.href ="logout.php";
+							location.href ="login.php";
 						} else {
 							alert(msg.msg);
 						}
