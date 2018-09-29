@@ -19,6 +19,7 @@ if (isset($_SESSION['account']) && $_SESSION['account'] != '') {
 		密碼<input type="password" name="password" id="password" value=''><BR>
 		<input type="button" id="login" value="登入">
 	</form>
+	<button><a href="register.php">註冊</a></button>
 	<div id='error_text' ></div>
 	<script>
 		console.log($('#account').val());
