@@ -29,7 +29,7 @@ if (isset($_POST['account']) && $_POST['account'] != '' &&
 
 	$sth = $dbConnection->prepare($tsql);
 	
-	$sth->execute(['account' => $_POST['account'] , 'password' => $_POST['password']]);
+	$sth->execute(['account' => $_POST['account'] , 'password' => md5($_POST['password'])]);
 
 	$data = $sth->fetch(PDO::FETCH_ASSOC);
 	
